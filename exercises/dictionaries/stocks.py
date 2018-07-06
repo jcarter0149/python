@@ -1,5 +1,16 @@
 stockDict = {'GM': 'General Motors', 'CAT': 'Caterpillar', 'EK': 'Eastman Kodak'}
 
-purchases = [ ('GE', 100, '10-sep-2001', 48),
+purchases = [ ('GM', 100, '10-sep-2001', 48),
     ('CAT', 100, '1-apr-1999', 24),
     ('EK', 200, '1-jul-1998', 56)]
+
+
+for company in stockDict:
+    if company == purchases[0][0]:
+        print(purchases[0][0], purchases[0][1] * purchases[0][3])
+    elif company == purchases[1][0]:
+        print(purchases[1][0], purchases[1][1] * purchases[1][3])
+    elif company == purchases[2][0]:
+        print(purchases[2][0], purchases[2][1] * purchases[2][3])
+
+print(company)
