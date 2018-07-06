@@ -5,12 +5,12 @@ purchases = [ ('GM', 100, '10-sep-2001', 48),
     ('EK', 200, '1-jul-1998', 56)]
 
 
-for company in stockDict:
+for company, v in stockDict.items():
     if company == purchases[0][0]:
-        print(purchases[0][0], purchases[0][1] * purchases[0][3])
+        print(v, purchases[0][1] * purchases[0][3])
     elif company == purchases[1][0]:
-        print(purchases[1][0], purchases[1][1] * purchases[1][3])
+        print(v, purchases[1][1] * purchases[1][3])
     elif company == purchases[2][0]:
-        print(purchases[2][0], purchases[2][1] * purchases[2][3])
+        print(v, purchases[2][1] * purchases[2][3])
 
 print(company)
