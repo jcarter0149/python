@@ -10,8 +10,8 @@ for company, v in stockDict.items():
     elif company == purchases[1][0]:
         print(v, purchases[1][1] * purchases[1][3], purchases[1][2])
     elif company == purchases[2][0]:
-<<<<<<< HEAD
+
         print(v, purchases[2][1] * purchases[2][3], purchases[2][2])
-=======
+
         print(v, purchases[2][1] * purchases[2][3], purchases[2][2])
->>>>>>> 1cc13a92a5949c9519d6cc00ccfae43e1dba05af
+
