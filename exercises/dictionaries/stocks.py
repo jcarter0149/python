@@ -10,6 +10,7 @@ for company, v in stockDict.items():
     elif company == purchases[1][0]:
         print(v, purchases[1][1] * purchases[1][3], purchases[1][2])
     elif company == purchases[2][0]:
+<<<<<<< HEAD
         print(v, purchases[2][1] * purchases[2][3], purchases[2][2])
 
 
@@ -89,3 +90,10 @@ for ticker,purchases in portfolio.items():
         total_portfolio_stock_value += purchase[1] * purchase[3]
         print("    {}".format(purchase))
     print("Total value of stock in portfolio: ${}\n\n".format(total_portfolio_stock_value))
+=======
+
+        print(v, purchases[2][1] * purchases[2][3], purchases[2][2])
+
+        print(v, purchases[2][1] * purchases[2][3], purchases[2][2])
+
+>>>>>>> 12eef606c680ee7f01bbcbf5178c2abc673b3306
